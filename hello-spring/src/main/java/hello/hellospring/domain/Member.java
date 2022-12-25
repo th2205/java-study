@@ -2,22 +2,22 @@ package hello.hellospring.domain;
 
 public class Member {
 
-    private static String name;
-    private static Long sequence = 0L;
+    private String name;
+    private Long id = 0L;
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
-    public static void setName(String name) {
-        Member.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public static Long getSequence() {
-        return sequence;
+    public Long getId() {
+        return id;
     }
 
-    public static void setSequence(Long sequence) {
-        Member.sequence = sequence;
+    public void setId(Long sequence) {
+        this.id = sequence;
     }
 }
