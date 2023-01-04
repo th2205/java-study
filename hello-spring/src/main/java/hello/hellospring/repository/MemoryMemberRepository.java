@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
-public class MemoryMemoryRepository implements MemberRepository {
+public class MemoryMemberRepository implements MemberRepository {
 
     private static final HashMap<Long, Member> store = new HashMap<>();
     private static Long sequence = 0L;
